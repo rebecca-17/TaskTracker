@@ -51,10 +51,5 @@
     },
     "dependencies": {
         "@boots-edu/webz": "^0.9.12"
-    },
-    "scripts": {
-        "build": "webpack --mode production",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
     }
 }
