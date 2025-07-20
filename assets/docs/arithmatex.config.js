@@ -1,0 +1,1 @@
+window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"]],processEscapes:!0,processEnvironments:!0},options:{ignoreHtmlClass:".*|",processHtmlClass:"arithmatex"}},document.addEventListener("DOMContentLoaded",(function(){MathJax.typesetPromise()}));
