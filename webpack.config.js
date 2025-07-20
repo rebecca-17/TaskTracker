@@ -1,4 +1,4 @@
-//const webpack = require("webpack");
+const webpack = require("webpack");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -67,7 +67,7 @@ module.exports = (env) => {
             }),
             new HtmlWebpackPlugin({
                 title: "webpack Boilerplate",
-                template: path.resolve(__dirname, "./src/index.html"), // template file
+                template: path.resolve(__dirname, "./docs/index.html"), // template file
                 filename: "index.html", // output file
             }),
             ,
