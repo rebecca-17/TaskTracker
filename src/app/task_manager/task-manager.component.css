@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.task {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input,
+button {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#remove,
+#complete {
+    background-color: #f44336;
+}

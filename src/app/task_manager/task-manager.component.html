@@ -1,0 +1,54 @@
+<div>
+    <div class="task">Enter information about your task:</div>
+
+    <input id="task-input" bind="taskName" placeholder="Task name" />
+    <input id="topic-input" bind="topic" placeholder="Enter topic (optional)" />
+    <input
+        id="description-input"
+        bind="descript"
+        placeholder="Enter description (optional)"
+    />
+
+    <br />
+
+    <label for="birthday">Select a due date:</label>
+    <input type="date" id="dueDate" name="Due Date" />
+
+    <button id="add">Add!</button>
+
+    <br />
+    <br />
+
+    <p>
+        Task Record: <br />
+        <br />
+        <span id="tasks"></span>
+    </p>
+</div>
+
+<p>
+    Completed Task Record: <br />
+    <span id="completeTasks"></span>
+</p>
+
+<input id="remove-input" placeholder="Enter number to remove" />
+<button id="remove">Remove!</button>
+
+<br />
+
+<input id="complete-input" placeholder="Enter completed task #" />
+<button id="complete">Complete!</button>
+
+<br />
+
+<br />
+<label for="filterDate">Select a filter date:</label>
+<input type="date" id="filterDate" name="Due Date" />
+<button id="day">Day View</button>
+
+<button id="month">Month View</button>
+<br />
+<br />
+<button id="list">List View</button>
+
+<br />
